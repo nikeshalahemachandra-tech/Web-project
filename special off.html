@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	<title>Special Offers</title>
+	
+	</head>
+	
+	<style>
+	{
+	   padding:0;
+	   margin:0;
+	  }
+    body{
+        background-color:#fff;
+	}
+	h1{
+	color:#423780;
+    }	
+	h2 {
+	  color:#82C235;
+	  font-size:30px;
+	  font-family:sans-serif;
+	}
+	h2.double{
+	     border-style:double;
+		 color:#7A1B2D;
+	}
+	.items {
+	display:grid;
+	grid-template-columns:repeat(3, 1fr);
+	padding:40px 30px;
+	grid-column-gap:40px;
+	grid-row-gap:50px;
+		
+}	
+   .item img{
+	transition: 0.2s ease;
+	cursor:pointer;
+	object-fit:cover;
+}
+	.item img:hover{
+	transform:scale(1.04);
+}
+	.item h4{
+    padding:3px;
+	text-align:pointer;
+}	
+
+	
+	.item button{
+	padding:5px 30px;
+	border:none;
+	outline:none;
+	background-color:green;
+	color:#fff;
+	cursor:pointer;
+	border-radius:4px;
+	margin:0 auto;
+	transition:0.2s all;
+}
+.item button:hover{
+	transform:scale(1.04);
+}
+@media screen and (max-width:1000px){
+	.items{
+		grid-template-columns:repeat(2, 1fr);
+	}
+}
+@media screen and (max-width:768px){
+	.items{
+		grid-template-columns:repeat(1, 1fr);
+	}
+}
+	h3 {
+	  color:#82C235;
+	  font-size:30px;
+	  font-family:sans-serif;
+	}
+	h3.double{
+	     border-style:double;
+		 color:#7A1B2D;
+	}	
+	</style>
+	
+	<body>
+	<center>
+	<h1> Bloom Ray Special Offers</h1>
+	<i class="fa fa-heart" ></i>
+	</center>
+	<center><h2 class="double"> Day Offers</h2></center>
+	<section class="items">
+	   <div class="item">
+	        <img width="300px" height="300px"src="images/a1.jpg">
+            <h4>Peachy choco floral </h4>
+			<h5>$ 39.99</h5> 
+            <button>Order</button>
+       </div>  	
+
+         <div class="item">
+	        <img width="215" height="300px"src="images/s2.webp">
+            <h4>KaBloom </h4>
+			<h5>$ 59.99</h5>
+            <button>Order</button>
+       </div>  		
+
+		 <div class="item">
+	        <img width="300px" height="300px"src="images/d.jpg">
+            <h4> Sweetheart's Delight </h4>
+			<h5>$ 80.00</h5>
+            <button>Order</button>
+       </div>  		
+
+		 <div class="item">
+	        <img width="215px" height="300px" src="images/s3.jpg">
+            <h4> Harmony of Love</h4>
+			<h5>$ 60.00</h5>
+            <button>Order</button>
+       </div>  	
+	</section>
+	<center><h3 class="double"> Most Popular Products</h3></center>
+	<section class="items">
+	   <div class="item">
+	        <img width="300px" height="300px"src="images/a2.jpg">
+            <h4>BRF 098 </h4>
+			<h5>$ 40.99</h5> 
+            <button>Order</button>
+       </div>  	
+
+         <div class="item">
+	        <img width="300" height="300px"src="images/a3.jpg">
+            <h4>BRF 765</h4>
+			<h5>$ 39.00</h5>
+            <button>Order</button>
+       </div>  		
+
+		 <div class="item">
+	        <img width="300px" height="300px"src="images/a4.jpg">
+            <h4> BRF 432 </h4>
+			<h5>$ 40.00</h5>
+            <button>Order</button>
+       </div>  		
+
+		 <div class="item">
+	        <img width="300" height="300px" src="images/a5.jpg">
+            <h4> BRF 109</h4>
+			<h5>$ 45.00</h5>
+            <button>Order</button>
+       </div>  	
+	</section>
+
+	</body>
+
+</html>

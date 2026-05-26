@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	     <title>Bloom Ray-Contact Us </title>
+	
+	</head>
+	
+	<style>
+	{
+	   padding:0;
+	   margin:0;
+	  }
+	  
+    body{
+            background-image:url(tulip.jpg);
+            background-size:cover;
+			background-repeat:no-repeat;
+            background-position:cover;
+            font-family:fancy monospace;
+			height:130vh;
+        }
+	h3 {
+	    font-style:fancy double struck; 
+		color:#138579;
+        	}
+	.wrapper{
+		position:relative;
+		width:800px;
+		height:600px;
+		background:transparent;
+		backdrop-filter: blue(20px);
+		box-shadow:0 0 30px rgba(0, 0, 0, .5);
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		
+		/*overflow:hidden; */ 
+		
+		transition: transform .5 ease, height.2s ease;
+	}
+	.wrapper.active-popup{
+		transform:scale(1);
+	}
+	
+	
+	.wrapper.active{
+        height:520px;
+	}		
+
+	.wrapper .form-box{
+		width:100%;
+		padding:60px;
+		
+	}
+	.wrapper .form-box.login{
+            transition:transform.18s ease;
+            transform:translateX(0);
+			}
+    .form-box{
+		font-size:17px;
+		color:#162938;
+		text-align:left;
+		padding:20px;
+	}
+	.input-box{
+		position:relative;
+		width:100%;
+        height:50px;
+        margin:30px 0;
+		
+	}
+    form {  
+	        width:90%;
+			max-width:600px;
+			}
+	.input-group{
+            margin-bottom:30px;
+			position:relative;
+        }
+    input, textarea{
+            width:100%;
+            padding:10px;
+            outline:0;
+            border:1px solid black;
+            color:black;
+            background:transparent;
+            font-size:15px;
+    }			
+    label{
+            height:100%;
+			position:absolute;
+			left:0;
+			top:0;
+			padding:10px;
+			color:black;
+			cursor:text;
+			transition:0.2s;
+			}
+	button {
+        padding:10px 0;
+        color:#BA1737;
+        outline:none;
+        background:transparent;
+        border:1px solid #BA1737;
+        width:100%;
+        cursor:pointer;
+    }  	
+    input:focus~label,
+	input:value~label
+	textarea:focus~label
+	textarea:value~label{
+        top:-35px;
+        font-size:14px;
+		 }
+	.row{
+            display:flex;
+            align-items:center;
+			justify-content:space-between;
+			}
+	.row input-group{
+            flex-basis:48%;
+    }			
+    h1 {
+         color:black;
+    		 
+	}
+	
+	</style>
+	
+	<body>
+	<center>
+	    <h1> Contact us </h1> 
+	</center>
+	<h3><u>Contact Us for any questions... </u></h3>
+	<p> Open at all Days </p>
+        <ul> 	
+                <li><b>Time</b> -   7.00AM to 11.PM</li>
+				<li><b>Date</b> -  All 7 days </li>
+				<li><b> Email</b> -  BloomRay@gmail.com</li>
+				<li><b> Hotline</b> -  0876587900</li>
+     	</ul>
+
+
+    <div align="center">
+	    <div class="wrapper">
+		<div class="form-box ">
+	    <center> <h2>Get in touch </h2> </center>
+			<form action="#">
+			<div class="row">
+			
+			
+			</div>
+		       <div class="input-group">
+			       <label> Your Name:</label>
+				   <input type="name" required>
+          		</div>
+                <div class="input-group">
+                    <label>Email:</label>
+					 <input type="email" required>
+                </div>
+				 <div class="input-group">
+                    <label>Subject:</label>
+					 <input type="subject" required>
+                </div>
+				 <div class="input-group">
+				<label ="message">Your Message(Optional):</label>
+				 <textarea id="message"  rows="8"required></textarea>
+                </div>
+				
+				  
+				</div>  			
+			</div>
+		</div>
+		
+
+    </body>
+
+</html>

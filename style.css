@@ -1,0 +1,129 @@
+   {
+	   padding:0;
+	   margin:0;
+	  }
+    body{
+            background-image:url(bright.jpg);
+            background-size:cover;
+			background-repeat:no-repeat;
+            background-position:cover;
+            font-family:fancy monospace;
+			height:130vh;
+        }	
+  .text-box{
+		color:#fff;
+		position:absolute;
+		bottom:8%;
+	}
+	.text-box h1{
+		font-size:180px;
+		line-height:160px;
+		margin-left:-10px;
+		font-family:'double struck',cursive;
+		color:#5F1849;
+	}
+	
+	.text-box p{
+		font-size:50px;
+		font-weight:600px;
+		font-family:'Brush Script MT', cursive;
+		text-align:center;
+		color:#14A29B;
+	}		
+	
+	.menu-bar{
+	            background:#BA1737;
+				text-align:center;
+			}	
+              
+	
+	.menu-bar ul {
+	                display:inline-flex;
+                    list-style:none;
+                    color:#BA1737;
+					
+                 }
+    .menu-bar ul li{
+                     width:140px;
+					 margin:13px;
+					 padding:10px;
+	
+                }
+    .menu-bar ul li a{
+	                text-decoration:none;
+					color:#fff;
+				}
+    .active, .menu-bar ul li:hover{
+                            background:#E83D5E;
+                            border-radius:3px;
+                }   							
+    .menu-bar .fa{
+		            margin-right:8px;
+	        } 					
+	.sub-menu-1{
+                   display:none;
+	}
+    .menu-bar ul li:hover .sub-menu-1{
+                    display:block;
+                    position:absolute;
+                    background: #BA1737;
+                    margin-top:15px;
+                    margin-left:10px;
+	}
+    .menu-bar ul li:hover .sub-menu-1 ul{
+                    display:block;
+                    margin:10px;
+	}
+   	.menu-bar ul li:hover .sub-menu-1 ul li{
+		            width:150px;
+					padding:10px;
+					border-bottom:1px dotted #fff;
+					background:transparent;
+					border-radius:0;
+					text-align:left;
+	}
+	.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+			        border-bottom:none;
+	}
+	.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+		            color:#F0EC16;
+						}
+	.fa-angle-right{
+                    float:right;
+	}					
+   
+    	  
+	.content{
+		width:100%;
+		position:absolute;
+		top:50%;
+		transform:translater(-50%);
+		text-align:center;
+		color:#A9FF3C;
+		font-size:50px;
+		font-style: Script Bold Italic;
+	}	
+    
+	.btnLogin-popup{
+		width:130px;
+		height:50px;
+		background:transparent;
+		border:2px solid #E83D5E;
+		outline:none;
+		border-radius:6px;
+		cursor:pointer;
+		font-size:1.1em;
+		color:#fff;
+		font-weight:500;
+		margin-left:40px;
+		transition:5s;z
+        text-decoration:none;
+		
+		
+	}
+	.btnLogin-popup:hover{
+		background:#BA1737;
+		color:#fff;
+		text-decoration:none;
+	}
+	

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title> Occasions-Cake decorations </title>
+	
+	</head>
+		
+	<style>
+	{
+	   padding:0;
+	   margin:0;
+	  }
+    body{
+        background-color:#fff;
+	}
+h1{
+	color:#423780;
+}	
+.items {
+	display:grid;
+	grid-template-columns:repeat(4, 1fr);
+	padding:40px 30px;
+	grid-column-gap:30px;
+	grid-row-gap:50px;
+		
+}	
+.item img{
+	transition: 0.2s ease;
+	cursor:pointer;
+	object-fit:cover;
+}
+.item img:hover{
+	transform:scale(1.04);
+}
+.item h4{
+    padding:3px;
+	text-align:pointer;
+}	
+
+	
+	
+.item button{
+	padding:5px 30px;
+	border:none;
+	outline:none;
+	background-color:green;
+	color:#fff;
+	cursor:pointer;
+	border-radius:4px;
+	margin:0 auto;
+	transition:0.2s all;
+}
+.item button:hover{
+	transform:scale(1.04);
+}
+@media screen and (max-width:1000px){
+	.items{
+		grid-template-columns:repeat(2, 1fr);
+	}
+}
+@media screen and (max-width:768px){
+	.items{
+		grid-template-columns:repeat(1, 1fr);
+	}
+}
+	
+	
+	
+	
+	</style>
+	
+	<body>
+		<center>
+		<h1> Cake Decorations </h1>
+		</center>
+	<section class="items">
+	   <div class="item">
+	        <img width="215px" height="300px"src="images/bb.jpg">
+            <h4>Pink blush</h4>
+			<h5>$ 12.99</h5> 
+            <button>Order</button>
+       </div>  	
+
+         <div class="item">
+	        <img width="215px" height="300px"src="images/00.jpg">
+            <h4>Red roses </h4>
+			<h5>$ 15.00</h5>
+            <button>Order</button>
+       </div>  		
+
+		 <div class="item">
+	        <img width="215px" height="300px"src="images/88.jpg">
+            <h4> Yellow green</h4>
+			<h5>$ 35.00</h5>
+            <button>Order</button>
+       </div>  		
+
+		 <div class="item">
+	        <img width="215px" height="300px" src="images/55.jpg">
+            <h4> Golden red</h4>
+			<h5>$ 25.99</h5>
+            <button>Order</button>
+       </div>  	
+         
+		 <div class="item">
+	        <img width="215px" height="300px" src="images/66.jpg">
+            <h4> Deliya flora</h4>
+			<h5>$ 11.00</h5>
+            <button>Order</button>
+       </div>  	
+	 
+		 <div class="item">
+	        <img width="215px" height="300px" src="images/77.jpg">
+            <h4> Rose </h4>
+			<h5>$ 11.00</h5>
+            <button>Order</button>
+       </div>  	
+	
+		
+		 <div class="item">
+	        <img width="215px" height="300px" src="images/11.webp">
+            <h4> Tooper Flowers </h4>
+			<h5>$ 13.00</h5>
+            <button>Order</button>
+       </div>  	
+	
+
+
+
+
+
+
+
+	</section>
+
+
+	</body>
+
+</html>
